@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧩 SoftSell – Assignment for Credex Web Dev Internship
 
-## Getting Started
+A **responsive single-page marketing website** for a fictional software resale startup named **SoftSell**, built with **Next.js**, **Tailwind CSS**, and optional **dark mode toggle**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features Implemented
+
+✅ **Hero Section**
+
+* Headline, subheading, and a clear call-to-action (CTA) button
+
+✅ **How It Works**
+
+* Three-step explanation with icons: Upload License → Get Valuation → Get Paid
+
+✅ **Why Choose Us**
+
+* Four tiles describing platform benefits with icons
+
+✅ **Customer Testimonials**
+
+* Three dummy testimonials with name, role, and image
+
+✅ **Contact / Lead Form**
+
+* Name, Email, Company, License Type (dropdown), and Message field with frontend validation
+
+✅ **Dark Mode Toggle**
+
+* Seamless theme switching with `useState` and Tailwind `dark:` classes
+
+✅ **Animations**
+
+* Smooth testimonial carousel animation using custom logic (Framer Motion ready)
+
+✅ **Fully Responsive**
+
+* Mobile-first design with Tailwind’s utility classes
+
+✅ **Clean, Modern UI**
+
+* Custom, consistent design system using Tailwind colors and spacing
+
+✅ **SEO Optimized**
+
+* Dynamic page title and meta tags included
+
+✅ **Logo Placeholder + Favicon**
+
+* Included for branding and polish
+
+---
+
+## 💻 Tech Stack
+
+* **Framework**: [Next.js](https://nextjs.org/)
+* **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+* **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+* **Deployment**: [Vercel](https://vercel.com/)
+* **Extras**: Dark mode, responsive layout, testimonial autoplay, conditional props, clean state management
+
+---
+
+## 📁 Folder Structure
+
+```
+.
+├── components/
+│   ├── Hero.tsx
+│   ├── Flow.tsx
+│   ├── WhyChooseUs.tsx
+│   ├── Testimonials.tsx
+│   ├── ContactForm.tsx
+│   └── Footer.tsx
+├── app/
+│   └── page.tsx
+└── public/
+    └── [images]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🕐 Time Spent
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Task                       | Hours    |
+| -------------------------- | -------- |
+| Design + Layout            | 2h       |
+| Component Development      | 3h       |
+| Dark Mode & Responsiveness | 1.5h     |
+| Styling + Polish           | 2h       |
+| README + Hosting           | 0.5h     |
+| **Total**                  | **\~9h** |
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🌙 Bonus Implementations
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* [x] Dark Mode Toggle
+* [x] SEO Tags
+* [x] Placeholder logo & favicon
+* [x] Animations (testimonial section)
+* [ ] Basic AI Chat (optional, in progress)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔗 Live Site & Repo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Live URL**: [https://softsell.vercel.app](https://softsell.vercel.app)
+* **GitHub Repo**: [https://github.com/your-username/softsell](https://github.com/akash202004/codex_assignmentl)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
